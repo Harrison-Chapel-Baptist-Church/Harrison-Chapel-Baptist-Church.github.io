@@ -1,6 +1,13 @@
-// Public browser configuration. NEVER put a Supabase service-role key here.
-window.HC_CONFIG = {
-  supabaseUrl: 'https://ghtyknlmjpblxdoqifwb.supabase.co',
-  supabaseAnonKey: '', // Paste the publishable/anon key for the EXISTING Harrison Chapel Supabase project.
-  apkUrl: '' // HTTPS URL of the VERIFIED APK release asset, once uploaded.
-};
+
+ // Harrison Chapel Baptist Church
+ // Public website configuration
+
+ window.HC_CONFIG = {
+   supabaseUrl: 'https://ghtyknlmjpblxdoqifwb.supabase.co',
+
+   supabaseAnonKey: 'sb_publishable_bzbnN_BgR1hSsX8R82-YFQ_PDua_7rg',
+
+   // Official Android APK download link
+   // Will be added after uploading the APK to GitHub Releases
+   apkUrl: ''
+ };

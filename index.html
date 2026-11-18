@@ -1,127 +1,31 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#14233b">
-  <title>Harrison Chapel Baptist Church</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f6f7fb;
-      color: #18243a;
-    }
-    header {
-      background: #14233b;
-      color: white;
-      padding: 24px 18px;
-      text-align: center;
-    }
-    header h1 { margin: 0; font-size: 26px; }
-    nav { margin-top: 18px; }
-    nav a {
-      color: #f0d58b;
-      margin: 0 9px;
-      text-decoration: none;
-      display: inline-block;
-      padding: 5px;
-    }
-    .hero {
-      padding: 80px 20px;
-      text-align: center;
-      background: linear-gradient(140deg,#14233b,#344d73);
-      color: white;
-    }
-    .hero h2 { font-size: 36px; margin-top: 0; }
-    .hero p { line-height: 1.7; }
-    .button {
-      display: inline-block;
-      background: #e7c878;
-      color: #14233b;
-      padding: 14px 22px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      margin: 8px;
-    }
-    main { max-width: 1000px; margin: auto; }
-    section { padding: 40px 20px; }
-    .card {
-      background: white;
-      border-radius: 12px;
-      padding: 25px;
-      margin: 16px 0;
-      box-shadow: 0 3px 14px #0000000d;
-    }
-    footer {
-      text-align: center;
-      background: #14233b;
-      color: white;
-      padding: 24px;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Harrison Chapel Baptist Church</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#events">Events</a>
-      <a href="#community">Community</a>
-      <a href="#app">Get the App</a>
-    </nav>
-  </header>
-
-  <div class="hero">
-    <h2>Welcome to Harrison Chapel</h2>
-    <p>A place for faith, fellowship, and community.</p>
-    <a class="button" href="#community">Our Community</a>
-    <a class="button" href="#app">Download Our App</a>
-  </div>
-
-  <main>
-    <section id="about">
-      <div class="card">
-        <h2>About Our Church</h2>
-        <p>Welcome to Harrison Chapel Baptist Church.
-        We're glad you're here.</p>
-      </div>
-    </section>
-
-    <section id="events">
-      <div class="card">
-        <h2>Church Events</h2>
-        <p>Upcoming events will appear here once
-        the church calendar is connected.</p>
-      </div>
-    </section>
-
-    <section id="community">
-      <div class="card">
-        <h2>Member Community</h2>
-        <p>Our online member portal is coming soon.
-        Members will use their existing app accounts
-        to sign in.</p>
-      </div>
-    </section>
-
-    <section id="app">
-      <div class="card">
-        <h2>Harrison Chapel Android App</h2>
-        <p>Our Android app brings the church
-        community to your phone.</p>
-        <p>The official APK download and
-        installation instructions will be
-        available here soon.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    Harrison Chapel Baptist Church
-  </footer>
-</body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#14233b"><title>Harrison Chapel Baptist Church</title><style>
+:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#17253b;background:#f4f6fa}*{box-sizing:border-box}body{margin:0}header{background:#14233b;color:white;padding:18px max(18px,calc((100vw - 1050px)/2))}header h1{font-size:clamp(21px,3vw,30px);margin:0 0 12px}nav{display:flex;gap:8px;flex-wrap:wrap}button,.btn{cursor:pointer;border:0;border-radius:9px;padding:11px 16px;font:inherit;font-weight:650;background:#e5c77a;color:#14233b}nav button{background:transparent;color:#f0d995;padding:7px}nav button:hover{text-decoration:underline}.hero{text-align:center;background:linear-gradient(130deg,#14233b,#324d73);color:white;padding:65px 18px}.hero h2{font-size:clamp(32px,6vw,48px);margin:0 0 10px}.hero p{font-size:18px}.hero .btn{display:inline-block;margin:10px;text-decoration:none}main{max-width:1050px;margin:auto;padding:20px 16px 65px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}.card{background:white;padding:22px;border-radius:13px;box-shadow:0 4px 18px #0b234010;margin:14px 0}h2{margin-top:0}input,textarea{display:block;width:100%;padding:12px;margin:9px 0 15px;border:1px solid #b7c1ce;border-radius:8px;font:inherit}textarea{min-height:95px}label{font-weight:600}section[hidden],div[hidden]{display:none!important}.muted{color:#536175}.error{color:#a31928}.success{color:#176b44}.post{border-top:1px solid #e4e8ee;padding:16px 0;white-space:pre-wrap}.post small{color:#536175}footer{background:#14233b;color:white;text-align:center;padding:28px}a{color:#15568d}#status{min-height:24px}.actions{display:flex;gap:10px;flex-wrap:wrap}.pill{border-radius:100px;background:#e8eef6;padding:4px 10px;font-size:13px}#portal nav button{color:#173353;background:#e8eef6}#portal nav{margin-bottom:18px}@media(max-width:600px){.hero{padding:48px 16px}.card{padding:17px}}
+</style></head><body>
+<header><h1>Harrison Chapel Baptist Church</h1><nav><button data-go="home">Home</button><button data-go="about">About</button><button data-go="events">Events</button><button data-go="download">Get the App</button><button data-go="portal">Member Portal</button></nav></header>
+<div class="hero"><h2>Welcome to Harrison Chapel</h2><p>A place for faith, fellowship, and community.</p><button data-go="portal">Member Community</button><button data-go="download">Download Our App</button></div>
+<main><p id="status" role="status" aria-live="polite"></p>
+<section id="home"><div class="grid"><article class="card"><h2>Welcome</h2><p>We're glad you're here. Explore our church community and stay connected.</p></article><article class="card"><h2>Upcoming Events</h2><p>Sign in to view events shared with church members.</p><button data-go="events">See events</button></article><article class="card"><h2>Stay Connected</h2><p>Use your existing Harrison Chapel app account to sign in on the website.</p><button data-go="portal">Member sign in</button></article></div></section>
+<section id="about" hidden><div class="card"><h2>About Harrison Chapel</h2><p>Welcome to Harrison Chapel Baptist Church.</p><p class="muted">Church history, service times, location and leadership details will be added after they are verified.</p></div></section>
+<section id="events" hidden><div class="card"><h2>Church Events</h2><p id="events-message">Sign in to see church events.</p><div id="events-list"></div></div></section>
+<section id="download" hidden><div class="card"><h2>Harrison Chapel for Android</h2><p>Download the official app directly from the church website.</p><p id="apk-area" class="muted">The verified APK download link has not been configured yet.</p><h3>How to install</h3><ol><li>Download the official APK using the link above once available.</li><li>Open the downloaded file on your Android device.</li><li>If prompted, temporarily allow installation from your browser or file manager.</li><li>Install and open Harrison Chapel, then sign in with your existing account.</li><li>Turn off the temporary installation permission afterward.</li></ol><p class="muted">Only install APKs from this official church website. Android may warn about apps installed outside Google Play.</p></div></section>
+<section id="portal" hidden><div class="card" id="auth-panel"><h2>Member Sign In</h2><p>Use the same email and password as the Harrison Chapel Android app.</p><form id="signin"><label>Email<input id="email" type="email" required autocomplete="email"></label><label>Password<input id="password" type="password" required autocomplete="current-password"></label><div class="actions"><button type="submit">Sign in</button></div></form><p class="muted">New members can register through the Android app. Website registration will be enabled after the app's membership requirements are verified.</p></div>
+<div id="member-panel" hidden><div class="card"><div class="actions" style="justify-content:space-between;align-items:center"><h2>Member Community</h2><button id="signout">Sign out</button></div><p id="member-name"></p><nav><button data-tab="feed">Community Feed</button><button data-tab="events">Events</button><button data-tab="profile">My Account</button></nav><div id="feed-tab"><h3>Community Feed</h3><p class="muted">Posts are shared with the Android app through the existing database.</p><form id="post-form"><label>Share a post<textarea id="post-body" required maxlength="5000" placeholder="Share with the church community..."></textarea></label><button type="submit">Publish post</button></form><div id="feed-list"></div></div><div id="events-tab" hidden><h3>Events</h3><div id="private-events"></div></div><div id="profile-tab" hidden><h3>Account</h3><p id="profile-email"></p><p class="muted">Profile editing and avatar uploads will be enabled once the existing mobile profile schema is verified.</p></div></div></div></section>
+</main><footer>Harrison Chapel Baptist Church</footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script><script src="./config.js"></script><script>
+(()=>{'use strict';const $=id=>document.getElementById(id),status=$('status');const say=(msg,error=false)=>{status.textContent=msg;status.className=error?'error':'success'};const cfg=window.HC_CONFIG||{};let db=null,user=null;try{if(cfg.supabaseUrl&&cfg.supabaseAnonKey&&window.supabase)db=window.supabase.createClient(cfg.supabaseUrl,cfg.supabaseAnonKey,{auth:{flowType:'pkce',detectSessionInUrl:true}})}catch(e){console.error(e)};
+function go(id){for(const el of document.querySelectorAll('main > section'))el.hidden=el.id!==id;window.location.hash=id; if(id==='events')loadEvents();if(id==='portal'&&user)loadFeed()};document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.go)));
+function authUI(){ $('auth-panel').hidden=!!user;$('member-panel').hidden=!user;$('member-name').textContent=user?'Signed in as '+(user.user_metadata?.display_name||user.email):'';$('profile-email').textContent=user?.email||''}
+async function initialize(){if(!db){say('Member portal setup pending: add the Harrison Chapel Supabase publishable key to config.js.',true);return}const {data,error}=await db.auth.getSession();if(error)say(error.message,true);user=data?.session?.user||null;authUI();db.auth.onAuthStateChange((_event,session)=>{user=session?.user||null;authUI()});if(user&&location.hash==='#portal')loadFeed()}
+$('signin').addEventListener('submit',async e=>{e.preventDefault();if(!db)return say('Supabase configuration is incomplete.',true);say('Signing in...');const {error}=await db.auth.signInWithPassword({email:$('email').value.trim(),password:$('password').value});if(error)say(error.message,true);else{say('Signed in.');loadFeed()}});
+$('signout').addEventListener('click',async()=>{if(db){const {error}=await db.auth.signOut();if(error)say(error.message,true);else say('Signed out.')}});
+document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{for(const id of ['feed','events','profile'])$(id+'-tab').hidden=b.dataset.tab!==id;if(b.dataset.tab==='events')loadEvents();if(b.dataset.tab==='feed')loadFeed()}));
+const make=(tag,txt)=>{const n=document.createElement(tag);n.textContent=txt??'';return n};
+async function loadFeed(){const root=$('feed-list');root.replaceChildren(make('p','Loading posts...'));if(!db||!user)return;const {data,error}=await db.from('posts').select('*').order('created_at',{ascending:false}).limit(40);root.replaceChildren();if(error){root.append(make('p','Feed unavailable: '+error.message));return}if(!data?.length){root.append(make('p','No posts yet.'));return}for(const post of data){const wrap=make('div');wrap.className='post';wrap.append(make('small',new Date(post.created_at).toLocaleString()),make('p',post.body||post.content||''));const toggle=make('button','Comments');toggle.type='button';wrap.append(toggle);const comments=make('div');comments.hidden=true;wrap.append(comments);toggle.addEventListener('click',async()=>{comments.hidden=!comments.hidden;if(!comments.hidden)await loadComments(post.id,comments)});root.append(wrap)}}
+async function loadComments(postId,root){root.replaceChildren(make('p','Loading comments...'));const {data,error}=await db.from('comments').select('*').eq('post_id',postId).order('created_at',{ascending:true}).limit(100);root.replaceChildren();if(error){root.append(make('p','Comments unavailable: '+error.message));return}for(const c of data||[]){const p=make('p',c.body||'');p.style.paddingLeft='12px';root.append(p)}const form=document.createElement('form'),input=make('input');input.placeholder='Write a comment';input.required=true;input.maxLength=2000;const button=make('button','Reply');button.type='submit';form.append(input,button);form.addEventListener('submit',async e=>{e.preventDefault();const {error}=await db.from('comments').insert({post_id:postId,author_id:user.id,body:input.value.trim()});if(error)say('Comment not saved: '+error.message,true);else{say('Comment posted.');loadComments(postId,root)}});root.append(form)}
+$('post-form').addEventListener('submit',async e=>{e.preventDefault();if(!user)return;const body=$('post-body').value.trim();if(!body)return;const {error}=await db.from('posts').insert({author_id:user.id,body});if(error)say('Post not saved: '+error.message,true);else{$('post-body').value='';say('Post published.');loadFeed()}});
+async function loadEvents(){const targets=[$('events-list'),$('private-events')];for(const t of targets)t.replaceChildren();if(!db||!user){$('events-message').textContent='Sign in through the member portal to see events.';return}$('events-message').textContent='';const {data,error}=await db.from('events').select('*').order('starts_at',{ascending:true}).limit(30);for(const target of targets){if(error){target.append(make('p','Events could not be loaded: '+error.message));continue}if(!data?.length){target.append(make('p','No upcoming events listed.'));continue}for(const ev of data){const item=make('div');item.className='post';item.append(make('strong',ev.title||'Church event'),make('p',ev.description||''));target.append(item)}}}
+if(cfg.apkUrl&&/^https:\/\//.test(cfg.apkUrl)){const a=make('a','Download official Android APK');a.href=cfg.apkUrl;a.className='btn';a.rel='noopener noreferrer';$('apk-area').replaceChildren(a)}
+window.addEventListener('hashchange',()=>{const id=location.hash.slice(1);if(['home','about','events','download','portal'].includes(id))go(id)});initialize();const initial=location.hash.slice(1);go(['home','about','events','download','portal'].includes(initial)?initial:'home');
+})();
+</script></body></html>
